@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.columns{
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+.price{
+    list-style: none;
+    border: 2px  solid skyblue;
+    margin: o;
+    padding:0;
+}
+.price{
+    box-shadow: 0 10px 10px 0 rgb(89, 12, 88);
+    cursor: pointer;
+}
+.price .header{
+    background-color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.price li{
+    border-bottom: 2px solid grey;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: aquamarine;
+
+}
+.price .rate{
+    font-size: 40px;
+}
+.button{
+    background-color: rgb(9, 152, 162);
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+    color: wheat;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: red;
+}
